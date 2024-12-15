@@ -1,0 +1,35 @@
+{
+  "name": "Counter",
+  "address": "0x8dc62dca078261f8aec378c2d9e086f54d7a776e",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "increment",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "reset",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "count",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "filePath": "Counters-1734288030549/Counter.sol",
+  "pinnedAt": 1734291721235
+}
