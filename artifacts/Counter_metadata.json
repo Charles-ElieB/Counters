@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.28+commit.7893614a"
+		"version": "0.8.27+commit.40a35a09"
 	},
 	"language": "Solidity",
 	"output": {
@@ -40,15 +40,22 @@
 		},
 		"userdoc": {
 			"kind": "user",
-			"methods": {},
+			"methods": {
+				"increment()": {
+					"notice": "Incrémente le compteur jusqu'à un maximum de 51."
+				},
+				"reset()": {
+					"notice": "Réinitialise le compteur à 0."
+				}
+			},
 			"version": 1
 		}
 	},
 	"settings": {
 		"compilationTarget": {
-			"Counter.sol": "Counter"
+			"Counter_for_0_8_27.sol": "Counter"
 		},
-		"evmVersion": "shanghai",
+		"evmVersion": "cancun",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -60,12 +67,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Counter.sol": {
-			"keccak256": "0xedbe5f403b241df010aed7c81bd0560dc07ba280a047c77f9444b9245542e2b1",
+		"Counter_for_0_8_27.sol": {
+			"keccak256": "0xf8ad57831cd6c5c7e4a2bf722ef2c022ba61600d3ac081f2fdc3f9e889f0d281",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://45e9f277ae0c372e8e5f728e198eb528caa17c84fa5fb38d8fb26678560705dc",
-				"dweb:/ipfs/QmR7oNCkDGVjSptJzEy3qc9kqGD283V43P51sZaSCLUuag"
+				"bzz-raw://b52e831da3037500f7c20c3259cd5eb2083ef5f28c2c614acacbbda33fc919a2",
+				"dweb:/ipfs/QmeizeBPJm66GRjtAPsiCKU5ReMQ65oj1iW2qhdh2e1xLT"
 			]
 		}
 	},
