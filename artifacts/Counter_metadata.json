@@ -48,7 +48,7 @@
 		"compilationTarget": {
 			"Counter.sol": "Counter"
 		},
-		"evmVersion": "cancun",
+		"evmVersion": "paris",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
