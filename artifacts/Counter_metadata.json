@@ -46,7 +46,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Counter2_flattened.sol": "Counter"
+			"Counter.sol": "Counter"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -60,12 +60,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"Counter2_flattened.sol": {
-			"keccak256": "0x56702caf4aeadf1126f10e4bdc2278703bbe8d3bf17786644549818668db99fd",
+		"Counter.sol": {
+			"keccak256": "0xedbe5f403b241df010aed7c81bd0560dc07ba280a047c77f9444b9245542e2b1",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://83c3173033d1f4534892295b99064b8db9f26e88e559e51eb91ec1e8050fbf6b",
-				"dweb:/ipfs/QmbNnDvShyXJntpBQkHbSe3ANikuYgB5orqfKB2N5uQoLb"
+				"bzz-raw://45e9f277ae0c372e8e5f728e198eb528caa17c84fa5fb38d8fb26678560705dc",
+				"dweb:/ipfs/QmR7oNCkDGVjSptJzEy3qc9kqGD283V43P51sZaSCLUuag"
 			]
 		}
 	},
